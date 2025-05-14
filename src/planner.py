@@ -53,6 +53,5 @@ if __name__ == "__main__":
     user_input = "Create a simple library application with a login page."
     tasks = run_planner(user_input)
     print("Subtasks:")
-    # for task in tasks:
-    #     print(f"- {task}")
-    print(tasks)
+    for task in tasks:
+        print(f"- {task}")
